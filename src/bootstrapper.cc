@@ -2155,6 +2155,8 @@ void Genesis::InitializeGlobal(Handle<JSGlobalObject> global_object,
     InstallConstant(isolate, symbol_fun, "split", factory->split_symbol());
     InstallConstant(isolate, symbol_fun, "toPrimitive",
                     factory->to_primitive_symbol());
+    InstallConstant(isolate, symbol_fun, "homeObject",
+                    factory->home_object_symbol());
     InstallConstant(isolate, symbol_fun, "toStringTag",
                     factory->to_string_tag_symbol());
     InstallConstant(isolate, symbol_fun, "unscopables",
