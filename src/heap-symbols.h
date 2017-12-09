@@ -221,7 +221,6 @@
   V(error_start_pos_symbol)                 \
   V(frozen_symbol)                          \
   V(generic_symbol)                         \
-  V(home_object_symbol)                     \
   V(intl_initialized_marker_symbol)         \
   V(intl_pattern_symbol)                    \
   V(intl_resolved_symbol)                   \
@@ -249,6 +248,7 @@
   V(iterator_symbol, Symbol.iterator)            \
   V(intl_fallback_symbol, IntlFallback)          \
   V(match_symbol, Symbol.match)                  \
+  V(home_object_symbol)                     \
   V(replace_symbol, Symbol.replace)              \
   V(search_symbol, Symbol.search)                \
   V(species_symbol, Symbol.species)              \
